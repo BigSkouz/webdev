@@ -1,0 +1,23 @@
+body {
+    background-color:hotpink;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    color:forestgreen;
+    font-style: italic;
+    font-weight: 900;
+}
+
+@media screen and (mix-width: 700px) {
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
