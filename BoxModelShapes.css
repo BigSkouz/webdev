@@ -45,16 +45,5 @@ body {
     border-top: 0;
     border-bottom: 300px solid hotpink;
     margin: 60px 60px 60px 60px;
-    z-index: 7;
-}
-
-#triangleborder {
-    height: 0px;
-    width: 0px;
-    border: 170px solid transparent;
-    border-top: 0;
-    border-bottom: 320px solid rgb(203, 81, 142);
-    z-index: 6;
-    margin-top: -200px;
-    
+    z-index: 4;
 }
