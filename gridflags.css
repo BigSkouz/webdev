@@ -94,25 +94,25 @@
 
  #japan{
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
     height: 300px;
-    width:500px;
+    width: 500px;
     margin: 60px;
-
+   background-color: white;
  }
 
- #animewhite{
+ /* #animewhite{
     background-color: white;
     grid-column: 1 / 4 ;
     grid-row: 1 / 4 ;
 
- }
+ } */
 
  #animered{
     background-color: red;
-    grid-column: 2 / 3 ;
-    grid-row: 2 / 3 ;
+    grid-column: 32 / 69 ;
+    grid-row: 21 / 81 ;
     border-radius: 50%;
 
  }
@@ -154,11 +154,93 @@
  #thecross{
     background-color: white;
     grid-column: 3 / 4 ;
-    grid-row: 3 / 4 ;
+    grid-row: 2 / 5 ;
 
  }
 
  #thesecondcross{
     background-color: white;
+    grid-column: 2 / 5  ;
+    grid-row: 3 / 4 ;
 
+ }
+
+ #thailand{
+    display: grid;
+    height: 300px;
+    width: 500px;
+    margin: 60px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+ }
+
+ #bluecurry{
+   background-color:navy;
+   grid-column: 1 / 1 ;
+   grid-row: 3 / 5 ;
+
+
+ }
+
+ #redcurry{
+   background-color:red;
+   grid-column: 1 / 1 ;
+   grid-row: 1 / 2 ;
+   
+ }
+
+ #redcurry2{
+   background-color:red;
+   grid-column: 1 / 1 ;
+   grid-row: 6 / 7 ;
+   
+ }
+
+ #whitecurry{
+   background-color:white;
+   grid-column: 1 / 1 ;
+   grid-row: 2 / 3 ;
+   
+ }
+
+ #whitecurry2{
+   background-color:white;
+   grid-column: 1 / 1 ;
+   grid-row: 5 / 6 ;
+   
+ }
+
+ #uae{
+    display: grid;
+    height: 300px;
+    width: 500px;
+    margin: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+
+ }
+
+ #desertred{
+   background-color:red;
+   grid-column: 1 / 2 ;
+   grid-row: 1 / 4 ;
+ }
+
+ #desertgreen{
+   background-color:green;
+   grid-column: 2 / 5 ;
+   grid-row: 1 / 2 ;
+ }
+
+ #desertwhite{
+   background-color:white;
+   grid-column: 2 / 5 ;
+   grid-row: 2 / 3 ;
+ }
+
+ #desertblack{
+   background-color:black;
+   grid-column: 2 / 5 ;
+   grid-row: 3 / 4 ;
  }
