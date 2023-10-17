@@ -1,0 +1,41 @@
+Usability-assesses how easy user interafces are to use/ The word "usability also refers to methods for improving ease of use during the design process.
+
+Readability-the ease with whch a person can understand a passage of text. The complexity of your content, as well as the typographic elements used on your site
+
+Accessibility-Is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, wevsite on the world wide web by people with physical disablity, social disabilityies, and scoio-economic restrictions on bandwidth and speed.
+
+Cross Browser Compatibility-If your website is not tested and debugged on different platfroms and browsers, it wont work the same on all of them
+
+Wireframe- A bisual prototype of a webpage that focuss on content, layour, and behavior.
+
+U.I. (user interface) Elements- They add intereactivity to a user interface, providing touchpoints for the user as they navigate the Website. Examples: buttons, scrollbars, menu items, and checkboxes.
+
+Site Map- A list of pages of a website
+
+Validation - Validating a website is the procss of ensuring that the pages on a website conform to the norms or standards defined by various organizations
+
+Image Resolution- The detail an image holds. The term applies to rastor digital images, film images, and other types of images. Higher resolution means more image detail. Image resolution can be measured in various ways.
+
+Image optimization- to optimize and image so that it can run at the upmost capacity in terms of speed and effiecieny
+
+IP Address- Internet Protocol Address. A uniquely assigned numeric address for each computer connected to the internet
+
+IPv4- An IP address is in the form of 4 sets of decimal numbers serperated by dots. Example 70.89.31.226
+
+IPv6- Typically written in hexidecimal seperated by colon. Example: 2002: 4559: 1FE2::4559:1FE2
+
+Static IP- A permanant number assigend to a computer by an interent service provided (ISP)
+
+Dynamic IP- A temporary IP address that is assigenmd to a computer device or node when it's connected to a network.
+
+TCP/P- Transmission Control Protocol/ Internet Protocol. A network communication protocol used on the internet and computer networks to transmit data using packets
+
+Domain- The 'address' or URL of a particular website
+
+Protocol-The common set of standards and rules that ensure that all computers connected to the network have a common ground for which to work.
+
+Web Host(server)- A computer that stores and sends requested webpages and other files
+
+Favicon- A file containing one or more small icons, associated with a website or webpages. Browser will display a page's favicon in the browser's address bar.
+
+Metadata- Data about Data (AKA DATADATA). Used in metatags for websites.
