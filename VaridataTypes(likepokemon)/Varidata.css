@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(254, 198, 93);
+}
+
+#title {
+    margin: 40px;
+    font-size:60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#list {
+    display: flex;
+    justify-content: center;
+    background-color:orange;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#todoListTitle {
+    text-align: center;
+    background-color:brown;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: lightblue
+
+}
+
+#silly {
+    text-align: center;
+    margin-top: 40px;
+    background-color:olivedrab
+
+}
+
+img {
+
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 60px;
+    
+}
