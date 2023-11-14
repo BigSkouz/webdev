@@ -1,31 +1,40 @@
 //Fortune Telling :)
 
 function tellFortune() {
-    e.preventDefault();
-
+    
     numOfChild = document.getElementById("children").value;
     wifeOrHusband = document.getElementById("name").value;
-    yourCoordinates = document.getElementById("coordinates").value;
     sillyJob = document.getElementById("jobby").value;
 
-    doucment.getElementById("tellFortune").innerHTML =(`You will be an ${sillyJob} in ${yourCoordinates}, and married to ${wifeOrHusband} with ${numOfChild} kids.`);
+    document.getElementById(
+        "fortune"
+        ).innerHTML = `You will be an ${sillyJob}, and married to ${wifeOrHusband} with ${numOfChild} kids.`;
 
 }
 
 //dog age
 
-function calcCatAge(catAge) {
+function calcCatAge() {
+    kittenAge = document.getElementById("catAge").value;
     catAge = kittenAge * 7;
-    console.log(`Your cat is ${catAge} years old in cat years`)
+    document.getElementById(
+        "cat-age"
+        ).innerHTML = `your cat is ${catAge} years old in cat years!`;
 }
 
 //supply???
 
-function calcSupply(age, amountPerDay){
+function calcSupply(){
+    age = document.getElementById("age").value;
+    amountPerDay = document.getElementById("amount-per-day").value;
+
     maxAge = 100;
     amountPerYear = amountPerDay * 365.25;
     totalAmount = (maxAge - age) * amountPerYear;
-    console.log(`You will need ${totalAmount} to last you until the ripe old age of ${maxAge}.`);
+    document.getElementById(
+        "supply"
+        ).innerHTML = `You will need ${totalAmount} to last you until the ripe old age of ${maxAge}.`;
+    
 
 
 }
@@ -33,19 +42,40 @@ function calcSupply(age, amountPerDay){
 //circle :)
 
 function calcCirc(radius) {
+    radius = document.getElementById("radius").value;
+
     circumference = 2 * Math.PI * radius;
-    console.log(`the circumferenece is ${circumference}`);
+    document.getElementById(
+        "circumference"
+    ).innerHTML = `The circumference is ${circumference}`;
 }
 
-const calcArea = (radius) => console.log(`The area is ${Math.PI * radius * radius}`);
+function calcArea(radius){
+    radius = document.getElementById("radius2").value;
+    area = Math.PI * radius * radius;
+    document.getElementById(
+        "area"
+        ).innerHTML = `The area is ${area}`;
+    
+    
+
+}
 //too cold :(
 
-function celsiusToFahren(celsius) {
+function celsiusToFahren() {
+    celsius = document.getElementById("celsius").value;
+
     fahren = celsius * 9 / 5 + 32;
-    console.log(`${celsius} C is ${fahren} F`);
+    document.getElementById(
+        "fahrenheit"
+    ).innerHTML = `${celsius} C is ${fahren}F`;
 }
 
-function fahrenToCelsius(fahren) {
+function fahrenToCelsius() {
+    fahren = document.getElementById("fahrenheit2").value;
+
     celsius = (fahren - 32) * 5 / 9;
-    console.log(`${fahren} F is ${celsius} C`)
+    document.getElementById(
+        "celsius2"
+    ).innerHTML = `${fahren} C is ${celsius}F`;
 }
