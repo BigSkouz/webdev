@@ -19,7 +19,7 @@ function calcCatAge() {
     catAge = kittenAge * 7;
     document.getElementById(
         "cat-age"
-        ).innerHTML = `your cat is ${catAge} years old in cat years!`;
+    ).innerHTML = `your cat is ${catAge} years old in cat years!`;
 }
 
 //supply???
