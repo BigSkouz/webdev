@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 68, 99);
+    
+}
+
+#introdiv{
+    text-align: center;
+    font-size:larger;
+    background-color:orchid;
+    margin-right: 200px ;
+    margin-left: 200px ;
+    margin-bottom: 0px;
+}
+
+#advicediv{
+    text-align: center;
+    font-size:larger;
+    background-color: rgb(255, 210, 126);
+    margin-right: 200px ;
+    margin-left: 200px ;
+    margin-top: 0px;
+}
+
+#ulist{
+    margin-left: 600px;
+    font-size: x-large;
+}

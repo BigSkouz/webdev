@@ -4,8 +4,8 @@
         <link rel="stylesheet" href="ThreeBudgetiers.css">
         <title>THE THREE BUDGETIERS</title>
     </head>
-    <body>
-        <div>
+    <body id="body">
+        <div id="introdiv">
             <h1>THE GREAT BUDGETIERS</h1>
             <h3>Allow the Three Great Budgetiers™©® to calculate your budget!</h3>
             <h4>INCOME</h4>
@@ -17,16 +17,19 @@
             <input type="number" id="expenseInput4" placeholder="Place Expenses Within">
             <input type="number" id="expenseInput5" placeholder="Place Expenses Within">
             <input type="number" id="expenseInput6" placeholder="Place Expenses Within">
-            <button onclick="makeBudget()">Submit :)</button>
+            <button id="button" onclick="makeBudget()">Submit :)</button>
             <h2 id="MunsRemaining"></h2>
         </div>
-        <div>
-            <ul>
-                <li id="advice1"></li>
-                <li id="advice2"></li>
-                <li id="advice3"></li>
-            </ul>
+        <div id="advicediv">
+            <h2>"What should I do about my budget???"</h2>
+            <h1>No Worries, the Three Budgetiers are here to help!</h1>
+            <h3>Advice</h3>
         </div>
+        <ul id="ulist">
+            <li id="advice1"></li>
+            <li id="advice2"></li>
+            <li id="advice3"></li>
+        </ul>
 
     </body>
     <footer>
