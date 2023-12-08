@@ -3,18 +3,31 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;
-    font-size:large;
+    font-size:x-large;
 }
 
 footer {
-    margin-top: 200px;
+    margin-top: 150px;
+
+}
+
+#footerStuff {
+    grid-row: 1 / 4 ;
+    grid-column: 1 / 2 ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+  
+   
 }
 
 #navBar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
-    background-color: #7A005F;
+    background-color:#7A005F;
     color: white;
     text-align: center;
     height: 44px;
