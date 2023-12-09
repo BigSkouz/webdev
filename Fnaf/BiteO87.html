@@ -3,63 +3,76 @@
     <head>
         <title>WAS THAT THE BITE OF 87?!?!</title>
         <link rel="stylesheet" href="BiteO87.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fnaf (quite funny)">
+        <meta name="author" content="Miles Skousen (fnaf expert)">
+        <meta name="keywords" content="Fnaf, Freddy, Five Nights, AMONGUS">
 
     </head>
     <body>
         <div>
-            <h1>WAS THAT THE BITE OF 87?!?!</h1>
-            <nav>
-                <a href="BiteO87.html">The Bite of 87</a>
-                <a href="fnaf.html">Home</a>
-                <a href="lore.html">The Lore</a>
+            <h1 id="title">WAS THAT THE BITE OF 87?!?!</h1>
+            <nav id="navBar">
+                <a id="nav1" href="BiteO87.html">The Bite of 87</a>
+                <a id="nav2" href="fnaf.html">Home</a>
+                <a id="nav3" href="lore.html">The Lore</a>
             </nav>
             <h2>Fnaf Quiz</h2>
         </div>
         <div>
-            <form>
-                <h3>Fill out this quiz</h3>
-                <p>Enter your info the text boxes below</p>
-                <input type="text" placeholder="Enter your name" id="name"/>
-                <input type="text" placeholder="Enter your favorite character" id="character"/>
+            <form id="paragraphs">
+                <div id="firstPara">
+                    <h3>Fill out this quiz</h3>
+                    <p>Enter your info the text boxes below</p>
+                    <input type="text" placeholder="Enter your name" id="name"/>
+                    <input type="text" placeholder="Enter your favorite character" id="character"/>
+                </div>
 
-                <p>Have you played fnaf?</p>
+                <div id="secondPara">
 
-                <input type="radio" id="FnafRadio" name="FnafRadio" value="Yes"/>
-                <label for="FnafRadio">Yes</label>
-                <input type="radio" id="FnafRadio" name="FnafRadio" value="Nuh uh"/>
-                <label for="FnafRadio">No</label>
+                    <p>Have you played fnaf?</p>
 
-                <p>If so, what games?</p>
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="Just the first one">
-                <label for="FnafGames">Just the first one</label>
+                    <input type="radio" id="FnafRadio" name="FnafRadio" value="Yes"/>
+                    <label for="FnafRadio">Yes</label>
+                    <input type="radio" id="FnafRadio" name="FnafRadio" value="Nuh uh"/>
+                    <label for="FnafRadio">No</label>
 
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="All of the above">
-                <label for="FnafGames">All of the above</label>
-                
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="You read the radio checks wrong (I said no)">
-                <label for="FnafGames">You read the radio checks wrong (I said no)</label>
-                
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="I watched the movie (don't worry it's just like them games I think)">
-                <label for="FnafGames">I watched the movie (don't worry it's just like them games I think)</label>
-                
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="I actually am an expert with Toreador March and play it often (I'm actually Freddy)">
-                <label for="FnafGames">I actually am an expert with Toreador March and play it often (I'm actually Freddy)</label>
-                
-                <input type="checkbox" id="FnafGames" name="FnafGames" value="Does Among Us count???">
-                <label for="FnafGames">Does Among Us count???</label>
-                
-                <p>Who did the bite of 87?</p>
-                <select>
-                    <option>Please Select One</option>
-                    <option>Markiplier</option>
-                    <option>Mango</option>
-                    <option>Me >:)</option>
-                    <option>Farquae Fardzbar</option>
-                    <option>Le Puppet (somehow)</option>
-                </select>
+                    <p>If so, what games?</p>
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="Just the first one">
+                    <label for="FnafGames">Just the first one</label>
+
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="All of the above">
+                    <label for="FnafGames">All of the above</label>
+                    
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="You read the radio checks wrong (I said no)">
+                    <label for="FnafGames">You read the radio checks wrong (I said no)</label>
+                    
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="I watched the movie (don't worry it's just like them games I think)">
+                    <label for="FnafGames">I watched the movie (don't worry it's just like them games I think)</label>
+                    
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="I actually am an expert with Toreador March and play it often (I'm actually Freddy)">
+                    <label for="FnafGames">I actually am an expert with Toreador March and play it often (I'm actually Freddy)</label>
+                    
+                    <input type="checkbox" id="FnafGames" name="FnafGames" value="Does Among Us count???">
+                    <label for="FnafGames">Does Among Us count???</label>
+                </div>
+                <div id="thirdPara">
+                    <p>Who did the bite of 87?</p>
+                    <select>
+                        <option>Please Select One</option>
+                        <option>Markiplier</option>
+                        <option>Mango</option>
+                        <option>Me >:)</option>
+                        <option>Farquae Fardzbar</option>
+                        <option>Le Puppet (somehow)</option>
+                    </select>
+                </div>  
             </form>
-            <button onclick="fnafQuiz()">Submit Le Quiz</button>
-            <p id="submitMessage"></p>
+            <div id="buttonstuff">
+                <button id="funnybutton" onclick="fnafQuiz()">Submit Le Quiz</button>
+                <p id="submitMessage"></p>
+            </div>
         </div>
         
     </body>
